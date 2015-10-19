@@ -1,0 +1,44 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Express 2012 for Web
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "DemoBasicWebService", "..\..\WebSites\DemoBasicWebService\", "{FAB242B8-A86E-4FAE-BD7B-027BF7B2078C}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.5.1"
+		Debug.AspNetCompiler.VirtualPath = "/DemoBasicWebService"
+		Debug.AspNetCompiler.PhysicalPath = "..\..\WebSites\DemoBasicWebService\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\DemoBasicWebService\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/DemoBasicWebService"
+		Release.AspNetCompiler.PhysicalPath = "..\..\WebSites\DemoBasicWebService\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\DemoBasicWebService\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "60443"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalculatorWebApplication", "..\CalculatorWebApplication\CalculatorWebApplication.csproj", "{26B5A125-6D11-41F5-B258-6B8322F5369E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FAB242B8-A86E-4FAE-BD7B-027BF7B2078C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FAB242B8-A86E-4FAE-BD7B-027BF7B2078C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FAB242B8-A86E-4FAE-BD7B-027BF7B2078C}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{FAB242B8-A86E-4FAE-BD7B-027BF7B2078C}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{26B5A125-6D11-41F5-B258-6B8322F5369E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{26B5A125-6D11-41F5-B258-6B8322F5369E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{26B5A125-6D11-41F5-B258-6B8322F5369E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{26B5A125-6D11-41F5-B258-6B8322F5369E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
